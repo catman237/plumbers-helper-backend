@@ -19,4 +19,4 @@ toiletRepair = Job.create(name: 'Pull and Reset', price: 125, description: 'Toil
 # t.string "brand"
 # t.string "use"
 
-wrench = Tool.create(name: 'wrench', brand: 'Craftsman', use: 'to tighten and loosen nuts and bolts')
+wrench = Tool.create(tool_name: 'wrench', brand: 'Craftsman', use: 'to tighten and loosen nuts and bolts')

@@ -27,7 +27,7 @@ class ToolsController < ApplicationController
     private
 
     def tool_params
-        params.require(:tool).permit(:name, :brand, :use)
+        params.require(:tool).permit(:tool_name, :brand, :use)
     end
 
     def find_tool
